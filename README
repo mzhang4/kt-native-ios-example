@@ -1,0 +1,5 @@
+First, gradle is used to help to compile the kotlin native code. (https://gradle.org/install/)
+
+After that, we can run gradle linkNative.
+
+Then the we can check the corresponding ABI interface at: build/bin/native/debugFramework/Demo.framework/Headers/Demo.h
